@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>TODO APP</header>
+        <div id="myDIV">
+        <input type="text" id="myInput" placeholder="Enter Your Task Here...">
+        <span onclick="newElement()" class="addBtn">+</span>
+        </div>
+    </div>
+    <ul id="listItems">
+        <li>Go To Gym</li>
+        <li>Read A Book</li>
+        <li>Buy A Notebook</li>
+        <li>Clean Your Cupboard</li>
+        <li>Collect And Organize Notes</li>
+        <li>Complete Assignment</li>
+        <li>Read A Book</li>
+    </ul>
+    <div class="footer">
+        <span>YOU HAVE SOME<span class="PendingTask"></span> PENDING TASK</span>
+        <button class="task" onclick="clearALL()">CLEAR ALL</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
